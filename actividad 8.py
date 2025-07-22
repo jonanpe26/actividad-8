@@ -74,8 +74,8 @@ while True:
         else:
             print("Error")
     elif opcion == "7":
-        print("¡Gracias por usar el programa!")
+        print("Gracias por usar el programa")
         break
     else:
-        print("Opción inválida. Intente nuevamente.")
+        print("Opción invalida. Intente nuevamente.")
 
