@@ -18,6 +18,14 @@ def suma(n):
 def fibonacci(n):
     if n ==0:
         return 0
-    if n==1:
-        return 1
     return fibonacci(n-1)+fibonacci(n-2)
+def contar(palabra,letra):
+    if palabra=="":
+        return  0
+    if palabra(0)==letra:
+        return 1+contar(palabra[1:],letra)
+    return contar(palabra,letra)
+def invertir(cadena):
+    if cadena =="":
+        return ""
+    return contar()
